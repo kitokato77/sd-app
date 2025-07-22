@@ -1,60 +1,38 @@
-````markdown
-# Nama Aplikasi
+# Shutdown App
+An application for performing automatic shutdowns, restart, or sleep with customisable timing down to the second, without the need for a task scheduler or administrator privileges.
 
-Deskripsi singkat tentang aplikasi ini, apa tujuannya, dan siapa penggunanya.
+## ✨ Key Features
+- ✅ Automatic shutdown using hours, minutes, seconds, or a combination of all three
+- ✅ Automatic restart using hours, minutes, seconds, or a combination of all three
+- ✅ Automatic sleep using hours, minutes, seconds, or a combination of all three
 
-## ✨ Fitur Utama
-- ✅ Fitur 1
-- ✅ Fitur 2
-- ✅ Fitur 3
+## 🛠️ Language
+- Python
 
-## 🛠️ Teknologi
-- Framework/library: React / Vue / Laravel / dsb.
-- Bahasa: JavaScript / Python / dsb.
-- Tools: Vite / Webpack / Docker / dsb.
+## 🚀 Build Yourself
+*for .exe version already avaiable on Release
 
-## 🚀 Instalasi & Build
-
-### 1. Clone repositori
+### 1. Clone repository
 ```bash
-git clone https://github.com/username/nama-aplikasi.git
-cd nama-aplikasi
+git clone https://github.com/kitokato77/sd-app.git
+cd sd-app
 ````
 
-### 2. Install dependencies
+### 2. Install pyinstaller
 
 ```bash
-# contoh untuk Node.js
-npm install
+pip install pyinstaller
 ```
 
-### 3. Jalankan aplikasi
-
+### 3. Build
+*there's already a script.txt that provide the script to build
 ```bash
-# contoh development server
-npm run dev
+pyinstaller --onefile --icon=3541892.ico --console sd.py
 ```
 
-### 4. Build untuk produksi
+### 4. Enjoy
 
-```bash
-npm run build
-```
-
-## 📂 Struktur Folder (opsional)
-
-```
-src/
-├── components/
-├── pages/
-├── assets/
-├── App.jsx
-└── main.js
-```
-
-## 📄 Lisensi
-
-[MIT](LICENSE) © 2025 Nama Anda
+Build file on dist folder
 
 ```
 
