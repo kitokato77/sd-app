@@ -33,10 +33,3 @@ pyinstaller --onefile --icon=3541892.ico --console sd.py
 ### 4. Enjoy
 
 Build file on dist folder
-
-```
-
----
-
-Jika kamu mau saya sesuaikan untuk proyek tertentu (misalnya aplikasi React, Laravel, atau lainnya), kirimkan detail singkatnya saja, nanti saya buatkan versi khususnya.
-```
