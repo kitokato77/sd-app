@@ -1,1 +1,1 @@
-pyinstaller --onefile --console sd.py
+pyinstaller --onefile --icon=3541892.ico --console sd.py
